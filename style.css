@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #52B0B2;
+}
+
+h3 {
+    color: #1A917B;
+    margin-bottom: 25px;
+}
+
+.nombreCompleto {
+    color: black;
+}
+
+.sigla {
+    color: gray;
+}
+
+.valorUsd {
+    color: green;
+}
+
+.PrecioCoins {
+    color: black;
+}
+
+.logoCripto {
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+}
+
+.grid-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px auto;
+    height: 80vh;
+}
+
+#color {
+    color: #1A917B;
+}
+
+.dolar {
+    grid-area: 2 / 2 / 3 / 4;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cripto {
+    grid-area: 1 / 2 / 2 / 4;
+    display: flex;
+    text-align: center;
+}
+
+.enDolares {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-right: auto;
+}
+
+.enPesos {
+    grid-area: 1 / 3 / 2 / 4;
+    margin-left: auto;
+}
+
+.listaMargen {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div ol li {
+    list-style: none;
+}
+
+div ol li p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+div p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(182, 56, 17);
+    border-top: 1px solid rgb(182, 56, 17);
+    margin-top: 20px;
+}
+
+.menu {
+    color: #1A917B;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 200px;
+}

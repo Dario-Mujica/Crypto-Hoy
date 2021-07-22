@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boostrap/bootstrap.min.css">
+    <script src="boostrap/jquery.min.js"></script>
+    <script src="boostrap/bootstrap.min.js"></script>
+    <script src="boostrap/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styleDos.css">
+    <title>CryptoHoy- CAMBIO CRIPTO</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="logo navbar-brand " href="index.html"><img src="media/crypto hoy.jpg" alt="logo Principal" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                </li>
+                <li class="nav-item">
+                </li>
+                <li class="nav-item dropdown">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            </form>
+        </div>
+    </nav>
+
+
+    <button class="button">ATENCION</button>
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="popup-close">x</div>
+            <div class="popup-content">
+                <h3>LOS VALORES PUEDEN <b>NO</b> ESTAR ACTUALIZADOS</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="div">
+        <h1>CAMBIO DE CRIPTO</h1>
+        Cantidad <input type="number" id="cantidad" min="0" value="0" onchange="cambio()">
+        <span id="valor">0</span>
+        <p>Cambiar de:</p>
+        <select id="de" onchange="cambio()">
+            <option value="1">Peso</option>
+            <option value="2">Dolar</option>
+            <option value="3">Bitcoin</option>
+            <option value="4">Ethereum</option>
+            <option value="6">Binance Coin</option>
+            <option value="7">DogeCoin</option>
+            <option value="8">Cardano</option>
+            <option value="9">XRP</option>
+            <option value="10">Polkadot</option>
+    </select>
+
+        <p>Cambiar a:</p>
+        <select id="a" onchange="cambio()">
+            <option value="1">Peso</option>
+            <option value="2">Dolar</option>
+            <option value="3">Bitcoin</option>
+            <option value="4">Ethereum</option>
+            <option value="5">USDT</option>
+            <option value="6">Binance Coin</option>
+            <option value="7">DogeCoin</option>
+            <option value="8">Cardano</option>
+            <option value="9">XRP</option>
+            <option value="10">Polkadot</option>
+    </select>
+        <h1 id="resultado">$0.00</h1>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="alert.js"></script>
+</body>
+
+</html>
